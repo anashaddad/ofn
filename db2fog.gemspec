@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name              = "db2fog"
-  s.version           = "0.9.0"
+  s.version           = "0.9.1"
   s.licenses          = ['MIT']
   s.summary           = "db2fog provides rake tasks for backing up and restoring your DB to cloud storage providers"
   s.description       = "db2fog provides rake tasks for backing up and restoring your DB to cloud storage providers"
@@ -14,8 +14,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">=1.3.2"
   s.required_ruby_version = ">=2.0.0"
 
-  s.add_dependency("rails", ['>=3.2.0', '<5.0'])
-  s.add_dependency("activerecord", ['>=3.2.0', '<5.0'])
+  s.add_dependency("rails", ['>=3.2.0', '<6.0'])
+  s.add_dependency("activerecord", ['>=3.2.0', '<6.0'])
 
   s.add_dependency("fog", "~> 1.0")
 
